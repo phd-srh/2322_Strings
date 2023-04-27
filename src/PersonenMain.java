@@ -9,10 +9,10 @@ public class PersonenMain {
         System.out.println(o.toString());
     }
 
-    public static void akzeptiereAlleObjekte(Object o) {
-        System.out.print("erhalte: " + o.getClass().getName());
-        System.out.println(" mit Wert " + o);
-        speicher[aktuellesObjekt++] = o;
+    public static void akzeptiereAlleObjekte(Object obj) {
+        System.out.print("erhalte: " + obj.getClass().getName());
+        System.out.println(" mit Wert " + obj);
+        speicher[aktuellesObjekt++] = obj;
     }
 
     public static void main(String[] args) {
